@@ -1,3 +1,3 @@
 ## Description
 
-Design web using *flexbox *
+Design web using *flexbox*

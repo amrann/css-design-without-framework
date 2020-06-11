@@ -1,0 +1,444 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap');
+
+* {
+   box-sizing: border-box;
+}
+
+body {
+   font-family: 'Quicksand', sans-serif;
+   margin: 0;
+   padding: 0;
+}
+  
+h2 {
+   color: #00a2c6
+}
+  
+h3 {
+   color: #00a2c6
+}
+
+
+header {
+   display: inline;
+   /* background-color: rgb(74, 172, 71); */
+   /* position: relative; */
+}
+
+nav li {
+   display: inline;
+   list-style-type: none;
+   margin-right: 20px;
+}
+
+.toolbar {
+   background-color: white;
+   padding: 15px 100px 15px 100px;
+   position: sticky;
+   top: 0;
+   border-bottom: 1px solid rgb(139, 139, 139);
+   text-align: right;
+   z-index: 1;
+}
+
+ul {
+   padding-top: -20px;
+}
+
+nav a {
+   font-size: 14px;
+   font-weight: 400;
+   text-decoration: none;
+   color: rgb(139, 139, 139);
+}
+
+main {
+   padding: 20px;
+   overflow: auto;
+   /* background-color: #11C5C6; */
+}
+
+.card {
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   border-radius: 5px;
+   padding: 20px;
+   margin-top: 20px;
+}
+
+.featured-image {
+   width: 100%;
+   max-height: 300px;
+   object-fit: cover;
+   object-position: center;
+}
+
+/* .content {
+   float: left;
+   width: 75%;
+} */
+
+.logo {
+   float: left;
+   margin-top: -7px;
+   /* background-color: rgb(74, 172, 71); */
+}
+
+.logo img {
+   margin-top: 0px;
+   width: 60px;
+   /* background-color: #00a2c6; */
+}
+
+.text_logo {
+   float: right;
+   margin-top: -10px;
+   margin-left: 5px;
+   padding: -3px;
+   /* background-color: rgb(172, 71, 71); */
+   text-align: left;
+}
+
+.text1 {
+   margin-top: 15px;
+   position: relative;
+   
+}
+.text2{
+   margin-top: -20px;
+   font-size: 20px;
+   font-weight: bolder;
+   position: relative;
+}
+
+/* Div ketiga */
+.ketiga {
+   height: 450px;
+   width: 100%;
+   /* background-color: rgb(63, 80, 126); */
+}
+
+.kiri {
+   float: left;
+   width: 50%;
+   
+}
+
+.news1 img {
+   width: 100%;
+   opacity: 80%;
+   /* position: relative; */
+}
+
+.ket {
+   /* margin-top: -10px; */
+   color: white;
+   margin-top: -120px;
+   margin-left: 20px;
+   
+}
+
+.ket_judul {
+   font-size: larger;
+   font-weight: bold;
+   width: 50%;
+   position: absolute;
+}
+
+.topik {
+   /* position: absolute; */
+   padding: 0.2%;
+   width: 16%;
+   /* margin-top: px; */
+   margin-top: -20px;
+   text-align: left;
+   background-color: rgb(0, 177, 88);
+   position: absolute;
+}
+
+.tgl {
+   margin-left: 230px;
+   margin-top: -15px;
+   position: absolute;
+   font-size: 14px;
+   font-weight: bolder;
+}
+
+.kanan {
+   float: right;
+   width: 50%;
+
+   /* background-color: rgb(162, 28, 251); */
+}
+
+.kanan img {
+   width: 320px;
+   height: 215px;
+   opacity: 80%;
+}
+
+.ket_kanan {
+   /* margin-top: -10px; */
+   color: white;
+   margin-top: -100px;
+   margin-left: 10px;
+   
+}
+
+.ket_judul_kanan {
+   font-size: medium;
+   font-weight: bold;
+   padding-top: 10px;
+   width: 95%;
+   position: relative;
+}
+
+.topik_kanan {
+   /* position: absolute; */
+   padding: 0.2%;
+   
+   /* margin-top: px; */
+   margin-top: -20px;
+   text-align: left;
+   display: inline;
+   position: relative;
+}
+
+.budaya {
+   width: 62px;
+   background-color: rgb(0, 121, 177);
+}
+
+.pendidikan {
+   width: 62px;
+   background-color: rgb(177, 0, 168);
+}
+
+.perempuandananak {
+   width: 62px;
+   background-color: rgb(177, 174, 0);
+}
+
+.tgl_kanan {
+   margin-top: 3px;
+   margin-left: 15px;
+   position: absolute;
+   display: inline;
+   font-size: 12px;
+   font-weight: bolder;
+}
+
+.baris {
+   display: flex;
+   margin-left: -15px;
+
+   /* background-color: rgb(28, 243, 251); */
+   /* height: 90px;
+   margin: 5px;
+   border: 1px solid black;
+   border-radius: 4px; */
+}
+
+.kotak {
+   flex-grow: 1;
+   width: auto;
+}
+
+/* end-Div ketiga */
+
+/* Div kedua */
+.kedua {
+   height: 600px;
+   width: 100%;
+   background-color: white;
+   /* display: block; */
+}
+
+.container {
+   display: flex;
+
+   /* Properti lainnya */
+   /* width: 800px;
+   height: 250px;
+   background-color: #11C5C6;
+   border: 2px solid black;
+   padding: 20px;
+   border-radius: 10px;
+   margin: 0 auto;
+    */
+   
+}
+
+.box {
+   flex-grow: 1;
+   /* properti lainnya */
+}
+
+.berita {
+   float: left;
+   width: 50%;
+}
+
+.teks_berita {
+   /* background-color: #FBDD1C; */
+   padding-left: -80px ;
+   width: 1500px;
+   margin-left: 10px;
+   margin-top: -10px;
+   /* flex-grow: 2; */
+}
+
+.tgl_berita {
+   font-size: small;
+   color: rgb(173, 173, 173);
+}
+
+.layanan {
+   float: right;
+   width: 50%;
+}
+
+.berita img {
+   width: 100%;
+   border-radius: 5px;
+}
+
+.container_layanan {
+   display: flex;
+   flex-direction: column;
+
+}
+
+.column_layanan {
+   flex-grow: 1;
+   display: flex;
+}
+
+.box_layanan {
+   flex-grow: 1;
+   /* properti lainnya */
+   background-color: rgb(28, 251, 140);
+   height: 90px;
+   margin: 5px;
+   border: 1px solid black;
+   border-radius: 4px;
+}
+
+.text_layanan {
+   /* top: 50%;
+  left: 50%; */
+  
+  padding: 10px;
+   text-align: center;
+   font-size: 20px;
+   font-weight: bold;
+}
+
+
+.container_sisfo {
+   display: flex;
+   flex-direction: column;
+}
+
+.column_sisfo {
+   flex-grow: 1;
+   display: flex;
+}
+
+.box_sisfo {
+   flex-grow: 1;
+   /* properti lainnya */
+   background-color: rgb(236, 251, 28);
+   height: 90px;
+   margin: 5px;
+   border: 1px solid black;
+   border-radius: 4px;
+}
+
+.text_sisfo {
+   /* top: 50%;
+  left: 50%; */
+  padding: 10px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* end-Div kedua */
+
+
+
+/* Div pertama */
+
+
+.alamat {
+   float: left;
+   width: 25%;
+}
+
+.gmaps {
+   float: right;
+   width: 75%;
+}
+
+.gmaps img{
+   width: 100%;
+   max-height: 300px;
+   object-fit: cover;
+   object-position: center;
+}
+
+.medsos {
+   display: inline;
+}
+.medsos img {
+   width: 10%;
+}
+
+/* end-Div pertama */
+
+aside {
+   float: right;
+   width: 25%;
+   padding-left: 20px;
+}
+  
+footer {
+   padding: 2px;
+   /* color: white; */
+   /* background-color: #00a2c6; */
+   text-align: center;
+   font-weight: bold;
+ }
+
+.profile header {
+   text-align: center;
+}
+
+.profile img {
+   width: 200px;
+}
+
+
+@media screen and (max-width: 992px) {
+   .content,
+   aside {
+       width: 100%;
+       padding: 0;
+   }
+
+   .toolbar {
+      width: 100%;
+   }
+
+   .logo {
+      margin-left: -70px;
+      size: 50%;
+   }
+
+}
+
+@media screen and (min-width: 720px) {
+   .toolbar {
+      width: 100%;
+   }
+}
